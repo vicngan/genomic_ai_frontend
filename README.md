@@ -120,7 +120,7 @@ You will need to run three services: the LLM server (vLLM), the backend, and the
     export VLLM_API_KEY="not-needed"  # or your API key
     
     # Start the server
-    uvicorn main:app --reload --host 0.0.0.0 --port 8000
+    x
     ```
     The backend API will be running at `http://localhost:8000`.
 
